@@ -1,0 +1,60 @@
+* {
+    margin:0;
+    padding:0;
+    }
+body {
+    background-image: #B7950B;
+  
+}
+
+.bgWeb {
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(146, 145, 142));
+  }
+
+.font-menu {
+    font-family: 'Quicksand', sans-serif;
+}
+
+  /*---TITULO--*/
+.nombre__high {
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    color: #b01d1d;
+    text-align: center;
+    opacity: 0;
+    animation: textanimation 3.5s ease-out forwards;
+}
+
+.eslogan {
+    font-size: 1em;
+    text-align: center;
+    opacity: 0;
+    animation: textanimation 5s ease-out forwards;
+}
+/*---ANIMACION--TITULO------*/
+@keyframes textanimation {
+    100% {opacity: 1;
+    }
+}
+/*-----------*/
+h3 {
+    font-family: 'Anton', sans-serif;
+}
+p {
+    font-family: 'Hind', sans-serif;
+}
+/*---HOME--*/
+.textoSomos {
+    text-align: center;    
+}
+/*---VEHICULOS--*/
+.bgCard {
+    background-color: gray;
+}
+/*---FOOTER---*/
+.bgFooter {
+    background-image: linear-gradient(rgb(27, 7, 206), rgb(128, 174, 189));    
+}
+.txtWhite{
+    color:white;
+}
